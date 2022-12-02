@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Burada</title>
+  </head>
+  <body>
+    <!-- Ilk Formumu Oluşturuyorum  -->
+    <form action="">
+      <label for="">Name</label>
+      <input
+        type="text"
+        name="name"
+        value=""
+        id="name"
+        placeholder="isim giriniz"
+      />
+      <label for="">Password</label>
+      <input type="password" name="password" />
+      <label for="">Id</label>
+      <input
+        type="number"
+        name="number"
+        value=""
+        placeholder="10 haneli sayı gir"
+      />
+      <label for="">Arama</label>
+      <input type="search" name="search" />
+      <label for="">Url</label>
+      <input type="url" name="url" />
+      <label for="">Email</label>
+      <input type="email" name="email" />
+      <label for="">Kullanılmaz</label>
+      <input type="text" disabled />
+      <!-- FARKLI TÜRLER -->
+      <hr />
+      <br />
+      <label for="">CheckBox</label>
+      <input type="checkbox" />
+
+      <input type="radio" name="radio-secenek" id="evli" value="evli" />
+      <label for="evli">Evli</label>
+      <input type="radio" name="radio-secenek" id="bekar" value="bekar" />
+      <label for="">Bekar</label>
+      <input type="radio" name="radio-secenek" id="not" value="not" />
+      <label for="">Not</label>
+
+      <label for="">Dosya Yukle</label>
+      <input type="file" name="" id="" />
+
+      <label for="">Tarih Sec</label>
+      <input type="date" name="" id="" />
+
+      <!-- Select Deniyorum -->
+      <label for="SAYILAR">Seçenekler</label>
+      <select name="SAYILAR" id="" multiple size="5">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+      <!-- OPTGROUP DENİYORUM -->
+      <label for="">OptGroup</label>
+      <select name="" id="">
+        <optgroup label="Meyveler">
+          <option value="Elma">Elma</option>
+          <option value="Armut">Armut</option>
+        </optgroup>
+        <optgroup label="Sebzeler">
+          <option value="Domates">Domates</option>
+          <option value="Salatalık">Salatalık</option>
+        </optgroup>
+      </select>
+
+      <!-- Text Area Deniyorum -->
+      <label for="yorum">TextArea</label>
+      <textarea
+        name="yorum"
+        id="yorum"
+        cols="30"
+        rows="10"
+        placeholder="Yorum Yaziniz"
+        required
+      ></textarea>
+
+      <input type="button" value="DUGME" />
+      <input type="submit" value="GONDER" />
+      <input type="reset" value="RESET" />
+    </form>
+  </body>
+</html>
