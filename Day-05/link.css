@@ -1,0 +1,13 @@
+a:link{
+    color: rgb(10, 199, 242);
+    text-decoration: none;
+}
+a:visited{
+    color:green
+}
+a:hover{
+    color:red
+}
+p:hover{
+    color: mediumblue;
+}
